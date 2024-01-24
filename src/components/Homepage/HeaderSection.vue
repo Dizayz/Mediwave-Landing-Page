@@ -120,6 +120,7 @@ main {
     border-radius: 10px;
     border: none;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 
