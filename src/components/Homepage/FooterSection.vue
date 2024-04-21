@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -69,6 +69,7 @@ a {
     font-size: 1.2rem;
     font-weight: 400;
     width: fit-content;
+    
 }
 
 a:hover {
@@ -78,7 +79,7 @@ a:hover {
 h3 {
     font-size: 1.2rem;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    color: black;
 }
 
 .social-links {
@@ -110,6 +111,7 @@ h3 {
 
 h4 {
     font-size: 1.2rem;
+        color: black;
 }
 
 @media (max-width:760px) {

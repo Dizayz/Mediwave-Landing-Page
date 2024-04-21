@@ -71,10 +71,12 @@ import Container from '../Container.vue'
 h2 {
     font-size: 1.6rem;
     font-weight: 600;
+        color: black;
 }
 
 p {
     font-size: 1.2rem;
+        color: black;
 }
 
 .fonction {
@@ -103,6 +105,7 @@ p {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 15px;
+        color: black;
 }
 
 @media (max-width:1150px) {

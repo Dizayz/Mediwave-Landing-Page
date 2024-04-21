@@ -43,11 +43,13 @@ h1 {
     font-size: 2.7rem;
     font-weight: 700;
 
+
 }
 
 p {
     text-align: center;
     font-size: 1.3rem;
+
 }
 
 button {

@@ -66,10 +66,12 @@ h1 {
     font-size: 2.4rem;
     line-height: 1.2;
     font-weight: 700;
+     color: black;
 }
 
 p {
     font-size: 1.4rem;
+     color: black;
 }
 
 @media (max-width:850px) {

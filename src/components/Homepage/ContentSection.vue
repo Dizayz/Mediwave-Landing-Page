@@ -95,6 +95,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 50px;
+        color: black;
 }
 
 .content {
@@ -156,12 +157,14 @@ h1 {
 h4 {
     font-size: 1.8rem;
     font-weight: 600;
+        color: black;
 
 }
 
 p {
     font-size: 1.2rem;
     font-weight: 400;
+        color: black;
 }
 
 .text-list {
@@ -172,10 +175,12 @@ p {
 
 .text-list p {
     font-size: 1.2rem;
+        color: black;
 }
 
 .icon {
     margin-right: 10px;
+        color: black;
 }
 
 @media (max-width:900px) {

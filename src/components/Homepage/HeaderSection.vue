@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import Container from "../Container.vue"
+
+
 </script>
 
 <template>
@@ -11,7 +13,7 @@ import Container from "../Container.vue"
                         <img src="../../assets/images/mediwave-logo.png" alt="mediwave-logo">
                     </div>
 
-                    <RouterLink to="/" class="connexion"> Connexion</RouterLink>
+                    <RouterLink to="/login" class="connexion"> Connexion</RouterLink>
                 </nav>
                 <div class="header-contenue">
                     <div class="header-detail">
@@ -57,7 +59,7 @@ main {
     padding: 30px 60px;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #f5f5f5;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: -160px;
@@ -74,6 +76,12 @@ main {
     align-items: center;
     font-size: 1.3rem;
     margin: auto;
+
+}
+
+.footer-header p {
+    color: black;
+    font-weight: 500;
 }
 
 .header-contenue {
@@ -104,6 +112,7 @@ main {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
+       
 }
 
 .header-detail h5 {
@@ -120,7 +129,6 @@ main {
     border-radius: 10px;
     border: none;
     margin-top: 30px;
-    cursor: pointer;
 }
 
 

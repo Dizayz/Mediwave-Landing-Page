@@ -83,12 +83,13 @@ onMounted(() => {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
+     color: black;
 }
 
 .testimonial h6 {
     font-size: 1.3rem;
     font-weight: 600;
-
+ color: black;
 
 }
 
@@ -107,11 +108,13 @@ onMounted(() => {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 15px;
+     color: black;
 }
 
 .header h4 {
     font-size: 1.5rem;
     font-weight: 500;
+     color: black;
 }
 
 .fade-enter-from {
