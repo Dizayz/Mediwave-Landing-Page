@@ -28,14 +28,14 @@ import Container from "../Container.vue"
                     </div>
                 </div>
                 <div class="footer-header">
-                    <div class="item"><font-awesome-icon :icon="['far', 'circle-check']" />
+                    <div class="item"><font-awesome-icon :icon="['far', 'circle-check']" class="inset-color" />
                         <p>Contenu riche et fiable</p>
                     </div>
-                    <div class="item"><font-awesome-icon :icon="['far', 'circle-check']" />
+                    <div class="item"><font-awesome-icon :icon="['far', 'circle-check']"  class="inset-color"/>
                         <p>Plateforme stable
                         </p>
                     </div>
-                    <div class="item"><font-awesome-icon :icon="['far', 'circle-check']" />
+                    <div class="item"><font-awesome-icon :icon="['far', 'circle-check']"  class="inset-color"/>
                         <p>Application mobile</p>
                     </div>
                 </div>
@@ -82,6 +82,7 @@ main {
 .footer-header p {
     color: black;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .header-contenue {

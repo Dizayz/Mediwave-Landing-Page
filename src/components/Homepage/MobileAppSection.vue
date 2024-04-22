@@ -29,7 +29,7 @@ import Container from '../Container.vue'
 
 <style scoped>
 main {
-    background-color: #0025f75d;
+    background-color: #9fa8df;
     padding: 6rem 0;
 }
 

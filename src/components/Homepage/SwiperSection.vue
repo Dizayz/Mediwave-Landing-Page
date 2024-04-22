@@ -51,7 +51,7 @@ onMounted(() => {
 
 <style scoped>
 .bgcolor {
-    background-color: #0025f75d;
+    background-color: #9fa8df;
     padding-bottom: 70px;
 }
 

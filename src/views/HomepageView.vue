@@ -9,7 +9,7 @@ import FooterSection from "../components/Homepage/FooterSection.vue"
 </script>
 
 <template>
-  <main>
+  <main class="mainhome">
     <HeaderSection></HeaderSection>
     <ContentSection></ContentSection>
     <SwiperSection></SwiperSection>
@@ -19,5 +19,9 @@ import FooterSection from "../components/Homepage/FooterSection.vue"
     <FooterSection></FooterSection>
   </main>
 </template>
-<style scoped></style>
+<style scoped>
+.mainhome{
+  background-color: white;
+}
+</style>
 
